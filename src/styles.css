@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: NotoSans;
+  src: url('./assets/fonts/Noto_Sans/NotoSans-Regular.ttf');
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: NotoSans;
+}
+
+body.homepage {
+  background-image: url("./app/images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #c5c6c7;
+}
+
+a {
+  text-decoration: none;
+}
+
+body.homepage header .routing-pages a,
+body.homepage footer .social-icons a,
+body.homepage footer .footer-menu a {
+  color:#c5c6c7 !important;
+}
+
+
+.btn.btn-primary {
+  color: #c5c6c7;
+  background-color: #45a29e;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+}

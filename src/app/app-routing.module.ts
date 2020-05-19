@@ -12,12 +12,10 @@ import { SignInComponent } from './signIn/signIn.component';
 const routes: Routes = [
   { path: 'newsPage', component: NewsPageComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'homePage', component: HomePageComponent, pathMatch: 'full' },
   { path: 'Alertwarning', component: AlertwarningComponent },
   { path: 'plan', component: PlanComponent},
-  { path: 'signIn', component: SignInComponent}
-
-
+  { path: 'signIn', component: SignInComponent},
+  { path: '', component: HomePageComponent, pathMatch: 'full' },
 ];
 
 @NgModule({

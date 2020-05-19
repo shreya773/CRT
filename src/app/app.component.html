@@ -1,9 +1,55 @@
-<h1>
-  {{title}}
-</h1>
-<br>
-<a routerLink="/">Home</a>
-<a routerLink="/newsPage">News Feed</a>
-<a routerLink="/about">About Us</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="app.component.css" />
+    
+  </head>
+
+  <body>
+
+    <div class="routing-pages">
+      <a routerLink="/about">About Us</a>
+      <a routerLink="/homePage">Donate</a>
+      <a routerLink="/newsPage">News Feed</a>
+      <a routerLink="/mapinformation">Map & Information</a>
+      <a routerLink="/alertwarning">Alert & Warning</a>
+      <a routerLink="/signIn">Sign In</a>
+  
+    </div>
+      <div class="search-box">
+      <input type="text" placeholder="Search here..." />
+    </div>
+
+    <div class="nav-container">
+      <div class="wrapper">
+        <nav>
+          <div class="logo">
+            <img src="D:\all logo\logo crt.png" alt="" />
+            CRT
+          </div>
+
+          
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="small-content">
+        <h1>CYCLONE IS COMING<br>
+        ARE YOU READY?</h1>
+        <button class="btn btn-primary">Let's Plan</button>
+      </div>
+      <div class="social-icons">
+          <a href="#">
+            <img src="D:\all logo\fb.png" alt="" />
+          </a>
+      </div>
+    
+  
+
 
 <router-outlet></router-outlet>

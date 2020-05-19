@@ -8,6 +8,8 @@ import { PlanComponent } from './plan/plan.component';
 import { NewsPageComponent } from './newsPage/newsPage.component';
 import { SignInComponent } from './signIn/signIn.component';
 import { AboutComponent } from './About/About.component';
+import { MapinformationComponent } from './mapinformation/mapinformation.component';
+import { AlertwarningComponent } from './alertwarning/alertwarning.component';
 
 @NgModule({
    declarations: [
@@ -16,7 +18,9 @@ import { AboutComponent } from './About/About.component';
       PlanComponent,
       NewsPageComponent,
       SignInComponent,
-      AboutComponent
+      AboutComponent,
+      MapinformationComponent,
+      AlertwarningComponent
    ],
    imports: [
       BrowserModule,

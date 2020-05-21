@@ -6,6 +6,8 @@ import { AboutComponent } from './About/About.component';
 import { AlertwarningComponent } from './alertwarning/alertwarning.component';
 import { PlanComponent } from './plan/plan.component';
 import { SignInComponent } from './signIn/signIn.component';
+import { DonationComponent } from './donation/donation.component';
+import { MapsComponent } from './maps/maps.component';
 
 
 
@@ -16,6 +18,9 @@ const routes: Routes = [
   { path: 'plan', component: PlanComponent},
   { path: 'signIn', component: SignInComponent},
   { path: '', component: HomePageComponent, pathMatch: 'full' },
+  { path: 'donation', component: DonationComponent },
+  { path: 'newsPage', component: NewsPageComponent },
+  { path: 'maps', component: MapsComponent },
 ];
 
 @NgModule({

@@ -8,8 +8,9 @@ import { PlanComponent } from './plan/plan.component';
 import { NewsPageComponent } from './newsPage/newsPage.component';
 import { SignInComponent } from './signIn/signIn.component';
 import { AboutComponent } from './About/About.component';
-import { MapinformationComponent } from './mapinformation/mapinformation.component';
 import { AlertwarningComponent } from './alertwarning/alertwarning.component';
+import { DonationComponent } from './donation/donation.component';
+import { MapsComponent } from './maps/maps.component';
 
 @NgModule({
    declarations: [
@@ -19,8 +20,9 @@ import { AlertwarningComponent } from './alertwarning/alertwarning.component';
       NewsPageComponent,
       SignInComponent,
       AboutComponent,
-      MapinformationComponent,
-      AlertwarningComponent
+      AlertwarningComponent,
+      DonationComponent,
+      MapsComponent
    ],
    imports: [
       BrowserModule,

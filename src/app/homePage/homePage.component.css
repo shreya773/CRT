@@ -3,3 +3,11 @@
   margin-left: 50px;
   margin-bottom: 150px;
 }
+.emr.btn-secondary {
+  color: #752006;
+  background-color: #45a29e;
+  padding-inline-end: 0%;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+}

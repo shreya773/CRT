@@ -11,6 +11,7 @@ import { AboutComponent } from './About/About.component';
 import { AlertwarningComponent } from './alertwarning/alertwarning.component';
 import { DonationComponent } from './donation/donation.component';
 import { MapsComponent } from './maps/maps.component';
+import { OrgSignupComponent } from './signIn/org-signup/org-signup.component';
 
 @NgModule({
    declarations: [
@@ -22,7 +23,8 @@ import { MapsComponent } from './maps/maps.component';
       AboutComponent,
       AlertwarningComponent,
       DonationComponent,
-      MapsComponent
+      MapsComponent,
+      OrgSignupComponent
    ],
    imports: [
       BrowserModule,

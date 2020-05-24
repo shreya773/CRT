@@ -1,7 +1,9 @@
 <div class="org-box">
-    <div class="organization-signup">click here for sign up</div>
+    <div class="organization-signup">Are you work in any Organization?</div>
         <div class="org-btn">
-            <button type="button" class="primary-button">sign up now!!</button>
+          <nav>
+            <a routerLink="/org-signup">click here for sign up!</a>
+          </nav>
     </div>
 </div>
 
@@ -14,6 +16,7 @@
       <input type="text" name="email" placeholder="E-mail" />
       <input type="password" name="password" placeholder="Password" />
       <input type="password" name="password2" placeholder="Retype password" />
+      <input type="integer" name="pincode" placeholder="Enter your pincode" />
       
       <input type="submit" name="signup_submit" value="Sign me up" />
     </div>
@@ -27,3 +30,4 @@
     </div>
     <div class="or">OR</div>
   </div>
+  <router-outlet></router-outlet>

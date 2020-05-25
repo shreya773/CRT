@@ -9,6 +9,7 @@ import { SignInComponent } from './signIn/signIn.component';
 import { DonationComponent } from './donation/donation.component';
 import { MapsComponent } from './maps/maps.component';
 import { OrgSignupComponent } from './signIn/org-signup/org-signup.component';
+import { EmergencyComponent } from './emergency/emergency.component';
 
 
 
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'newsPage', component: NewsPageComponent },
   { path: 'maps', component: MapsComponent },
   { path: 'org-signup', component: OrgSignupComponent},
+  { path: 'emergency', component: EmergencyComponent},
 ];
 
 @NgModule({

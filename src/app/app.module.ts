@@ -12,6 +12,9 @@ import { AlertwarningComponent } from './alertwarning/alertwarning.component';
 import { DonationComponent } from './donation/donation.component';
 import { MapsComponent } from './maps/maps.component';
 import { OrgSignupComponent } from './signIn/org-signup/org-signup.component';
+import { HttpClientModule} from '@angular/common/http';
+import { AgmCoreModule } from '@agm/core';
+import { EmergencyComponent } from './emergency/emergency.component';
 
 @NgModule({
    declarations: [
@@ -24,15 +27,19 @@ import { OrgSignupComponent } from './signIn/org-signup/org-signup.component';
       AlertwarningComponent,
       DonationComponent,
       MapsComponent,
-      OrgSignupComponent
+      OrgSignupComponent,
+      EmergencyComponent
    ],
    imports: [
       BrowserModule,
-      AppRoutingModule
+      AppRoutingModule,
+      HttpClientModule,
+      AgmCoreModule.forRoot(),
    ],
-   providers: [],
+
+   providers : [],
    bootstrap: [
-      AppComponent
-   ]
+      AppComponent,
+   ],
 })
 export class AppModule { }

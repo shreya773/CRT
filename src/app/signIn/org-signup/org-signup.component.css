@@ -6,31 +6,23 @@
 body {
   margin: 0;
   padding: 0;
-  background: #DDD;
+  background: rgb(14, 42, 80);
   font-size: 16px;
   color: #222;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+
 #login-box {
-    position: relative;
-    margin: 5% auto;
-    width: 600px;
-    height: 400px;
-    background: #FFF;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-org-box {
-    position: relative;
-    margin: 5% auto;
-    width: 200px;
-    height: 40px;
-    background: #FFF;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-}
 
 .left {
   position: absolute;
@@ -46,6 +38,7 @@ h1 {
   margin: 0 0 20px 0;
   font-weight: 300;
   font-size: 28px;
+  color: rgb(12, 12, 12);
 }
 
 input[type="text"],
@@ -70,6 +63,7 @@ input[type="password"]:focus {
   color: #16a085;
   transition: 0.2s ease;
 }
+
 
 input[type="submit"] {
   margin-top: 28px;
@@ -99,7 +93,7 @@ input[type="submit"]:active {
   transition: 0.1s ease;
 }
 
-.or {
+.and {
   position: absolute;
   top: 180px;
   left: 280px;
@@ -120,52 +114,33 @@ input[type="submit"]:active {
   padding: 40px;
   width: 300px;
   height: 400px;
-  background: url('https://goo.gl/YbktSj');
   background-size: cover;
   background-position: center;
   border-radius: 0 2px 2px 0;
 }
+ ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
 
-.right .loginwith {
+ul li {
+  font-size: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  background-color: rgb(117, 200, 221);
+}
+
+ul li ul li a {
+  display: none;
+}
+
+ul li ul li a:hover {
   display: block;
-  margin-bottom: 40px;
-  font-size: 28px;
-  color: #FFF;
-  text-align: center;
-}
-
-button.social-signin {
-  margin-bottom: 20px;
-  width: 220px;
-  height: 36px;
-  border: none;
-  border-radius: 2px;
-  color: #FFF;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  transition: 0.2s ease;
-  cursor: pointer;
-}
-
-button.social-signin:hover,
-button.social-signin:focus {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  transition: 0.2s ease;
-}
-
-button.social-signin:active {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-  transition: 0.2s ease;
-}
-
-button.social-signin.facebook {
-  background: #32508E;
-}
-
-button.social-signin.twitter {
-  background: #55ACEE;
-}
-
-button.social-signin.google {
-  background: #DD4B39;
 }

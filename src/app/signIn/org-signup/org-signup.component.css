@@ -16,7 +16,7 @@ body {
     position: relative;
     margin: 5% auto;
     width: 600px;
-    height: 400px;
+    height: 510px;
     background: #FFF;
     border-radius: 2px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -49,7 +49,8 @@ h1 {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="number"] {
   display: block;
   box-sizing: border-box;
   margin-bottom: 20px;
@@ -71,7 +72,8 @@ input[type="password"]:focus {
   transition: 0.2s ease;
 }
 
-input[type="submit"] {
+input[type="button"],
+button.btn-success {
   margin-top: 28px;
   width: 120px;
   height: 32px;
@@ -86,14 +88,17 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover,
-input[type="submit"]:focus {
+input[type="button"]:hover,
+input[type="button"]:focus,
+button.btn-success:hover,
+button.btn-success:focus {
   opacity: 0.8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   transition: 0.1s ease;
 }
 
-input[type="submit"]:active {
+input[type="button"]:active,
+button.btn-success:active {
   opacity: 1;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
   transition: 0.1s ease;
@@ -168,4 +173,17 @@ button.social-signin.twitter {
 
 button.social-signin.google {
   background: #DD4B39;
+}
+
+input[name="firstname"],
+input[name="lastname"] {
+  width: 48%;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.orgsubmitted {
+  top: 43%;
+  position: relative;
+  text-align: center;
 }

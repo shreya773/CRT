@@ -1,27 +1,35 @@
-
-  <div id="login-box">
+<div id="login-box">
+  <div class="signupform" *ngIf="!submitted">
     <div class="left">
       <h1>Sign up</h1>
-      
-      <input type="text" name="username" placeholder="Username" />
-      <input type="text" name="email" placeholder="E-mail" />
-      <input type="password" name="password" placeholder="Password" />
+
+      <input type="text" name="firstname" placeholder="First Name" [(ngModel)]="user.firstname" />
+      <input type="text" name="lastname" placeholder="Last Name" [(ngModel)]="user.lastname" />
+      <input type="text" name="phone" placeholder="Phone no." [(ngModel)]="user.phone" />
+      <input type="text" name="email" placeholder="E-mail" [(ngModel)]="user.email" />
+      <input type="password" name="password" placeholder="Password" [(ngModel)]="user.password" />
       <input type="password" name="password2" placeholder="Retype password" />
-      <input type="integer" name="pincode" placeholder="Enter your pincode" />
-      
-      
+      <input type="text" name="address" placeholder="Address" [(ngModel)]="user.address" />
+      <input type="number" min="18" max="999999" name="pincode" placeholder="Enter your pincode"
+        [(ngModel)]="user.pincode" />
+
     </div>
-    
+
     <div class="right">
       <input type="text" name="organization-type" placeholder="Organization-Type" />
       <input type="text" name="organization-name" placeholder="Organization-Name" />
       <input type="text" name="position" placeholder="Your Position in Organization" />
-      <input type="interger" name="ward-no" placeholder="Enter organization Ward-No" />
-      <input type="integer" name="pincode" placeholder="Enter organization pincode" />
-      
+      <input type="number" name="ward-no" placeholder="Enter organization Ward-No" />
+      <input type="number" name="pincode" placeholder="Enter organization pincode" />
 
-      <input type="submit" name="signup_submit" value="Sign me up" />
+
+      <input type="button" name="signup_submit" value="Sign me up" (click)="saveOrgUser()" />
     </div>
     <div class="or">&</div>
   </div>
 
+  <div *ngIf="submitted" class="orgsubmitted">
+    <h4>You submitted successfully!</h4>
+    <button class="btn btn-success" (click)="newOrgUser()">Go Back</button>
+  </div>
+</div>

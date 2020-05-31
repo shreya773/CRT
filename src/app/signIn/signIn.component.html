@@ -10,15 +10,25 @@
         
 <div id="login-box">
     <div class="left">
-      <h1>Sign up</h1>
+      <div class="signupform" *ngIf="!submitted">
+        <h1>Sign up</h1>
       
-      <input type="text" name="username" placeholder="Username" />
-      <input type="text" name="email" placeholder="E-mail" />
-      <input type="password" name="password" placeholder="Password" />
-      <input type="password" name="password2" placeholder="Retype password" />
-      <input type="integer" name="pincode" placeholder="Enter your pincode" />
-      
-      <input type="submit" name="signup_submit" value="Sign me up" />
+        <input type="text" name="firstname" placeholder="First Name" [(ngModel)]="user.firstname" />
+        <input type="text" name="lastname" placeholder="Last Name" [(ngModel)]="user.lastname" />
+        <input type="text" name="phone" placeholder="Phone no." [(ngModel)]="user.phone" />
+        <input type="text" name="email" placeholder="E-mail" [(ngModel)]="user.email" />
+        <input type="password" name="password" placeholder="Password" [(ngModel)]="user.password" />
+        <input type="password" name="password2" placeholder="Retype password" />
+        <input type="text" name="address" placeholder="Address" [(ngModel)]="user.address" />
+        <input type="number" min="18" max="999999" name="pincode" placeholder="Enter your pincode" [(ngModel)]="user.pincode" />
+        
+        <input type="button" name="signup_submit" value="Sign me up" (click)="saveUser()" />
+      </div>
+
+      <div *ngIf="submitted">
+        <h4>You submitted successfully!</h4>
+        <button class="btn btn-success" (click)="newUser()">Go Back</button>
+      </div>
     </div>
     
     <div class="right">

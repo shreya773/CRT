@@ -1,0 +1,17 @@
+.maps .windmap {
+    position: absolute;
+    width: 252px;
+    height: 119px;
+    left: 1137px;
+    top: 205px;
+
+    mix-blend-mode: normal;
+}
+
+.s-12 m-12 l-6 margin-m-bottom-2x{
+    position: absolute;
+}
+
+agm-map {
+    height: 500px;
+}

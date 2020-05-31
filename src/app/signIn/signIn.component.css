@@ -22,15 +22,6 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-org-box {
-    position: relative;
-    margin: 5% auto;
-    width: 200px;
-    height: 40px;
-    background: #FFF;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-}
 
 .left {
   position: absolute;
@@ -168,4 +159,28 @@ button.social-signin.twitter {
 
 button.social-signin.google {
   background: #DD4B39;
+}
+
+.click {
+  box-shadow: #DD4B39;
+  color: #32508E;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  position: relative;
+  width: 180px;
+  height: 20px;
+  top: 60px;
+  left: 100px;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.94);
+
+}
+
+.organization-signup{
+  position: relative;
+  color: rgb(12, 12, 12);
+  top: 120px;
+  left: 80px;
 }

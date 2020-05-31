@@ -16,6 +16,13 @@
     </div>
 
     <div class="right">
+      <select name="organization-type" placeholder="Organization-Type">
+        <option value="police">Police</option>
+        <option value="ambulance">Ambulance</option>
+        <option value="fire">Fire Brigade</option>
+        <option value="ngo">NGO</option>
+        <option value="others">Others</option>
+      </select>
       <input type="text" name="organization-type" placeholder="Organization-Type" />
       <input type="text" name="organization-name" placeholder="Organization-Name" />
       <input type="text" name="position" placeholder="Your Position in Organization" />
@@ -25,7 +32,9 @@
 
       <input type="button" name="signup_submit" value="Sign me up" (click)="saveOrgUser()" />
     </div>
-    <div class="or">&</div>
+    <div class="and">&</div>
+
+    
   </div>
 
   <div *ngIf="submitted" class="orgsubmitted">

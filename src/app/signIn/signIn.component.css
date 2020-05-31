@@ -22,7 +22,7 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.org-box {
+.orgbox {
   position: relative;
   margin: 5% auto;
   width: 600px;
@@ -173,7 +173,7 @@ button.social-signin.twitter {
 }
 
 button.social-signin.google {
-  background: #dd4b39;
+  background: #DD4B39;
 }
 
 input[name="firstname"],

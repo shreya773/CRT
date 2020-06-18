@@ -14,6 +14,7 @@ import { WeatherComponent } from './weather/weather.component';
 
 
 
+
 const routes: Routes = [
   { path: 'newsPage', component: NewsPageComponent },
   { path: 'about', component: AboutComponent },

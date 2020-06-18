@@ -31,7 +31,7 @@ import { WeatherComponent } from './weather/weather.component';
       MapsComponent,
       OrgSignupComponent,
       EmergencyComponent,
-      WeatherComponent
+      WeatherComponent,
    ],
    imports: [
       BrowserModule,

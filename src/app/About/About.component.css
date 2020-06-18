@@ -5,12 +5,12 @@
   }
   
  
-  #aboutus .maincontent .content {
+  .aboutus .maincontent .content {
     background: #fff;
   }
   
-  #aboutus .maincontent .title {
-    color: #333;
+  .aboutus .maincontent .title {
+    color: rgb(10, 10, 10);
     font-weight: 700;
     font-size: 32px;
   }
@@ -46,8 +46,9 @@
     flex-direction: column;
     text-align: center;
     border-radius: 50%;
-    border: 2px solid #2dc997;
+    border: 2px solid #45a29e;
     font-size: 50px;
+    color: #1f2833;
   }
   
   .smallcontent .icon-box2 .icon {
@@ -61,8 +62,9 @@
     flex-direction: column;
     text-align: center;
     border-radius: 50%;
-    border: 2px solid #2dc997;
+    border: 2px solid #45a29e;
     font-size: 40px;
+    color: #1f2833;
   }
   
   .smallcontent .icon-box3 .icon {
@@ -76,8 +78,9 @@
     flex-direction: column;
     text-align: center;
     border-radius: 50%;
-    border: 2px solid #2dc997;
+    border: 2px solid #45a29e;
     font-size: 50px;
+    color:  #1f2833;
   }
   
   

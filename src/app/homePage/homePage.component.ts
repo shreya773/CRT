@@ -7,13 +7,16 @@ import { Component, Inject, OnDestroy, OnInit, Renderer2 } from '@angular/core';
   styleUrls: ['./homePage.component.css']
 })
 export class HomePageComponent implements OnInit, OnDestroy {
-
+  
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private renderer: Renderer2,
   ) { }
 
-  ngOnInit(): void {
+  ngOnInit():
+
+ 
+  void {
     this.renderer.addClass(this.document.body, 'homepage');
   }
 
@@ -22,3 +25,4 @@ export class HomePageComponent implements OnInit, OnDestroy {
   }
 
 }
+

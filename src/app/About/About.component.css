@@ -35,7 +35,7 @@
     padding: 0 0 30px 0;
   }
   
-  #aboutus .smallcontent .icon-box .icon {
+  .smallcontent .icon-box .icon {
     float: left;
     background: #fff;
     width: 64px;
@@ -47,19 +47,37 @@
     text-align: center;
     border-radius: 50%;
     border: 2px solid #2dc997;
+    font-size: 50px;
   }
   
-  #aboutus .smallcontent .icon-box2 .icon i {
-    color: #2dc997;
-    font-size: 24px;
+  .smallcontent .icon-box2 .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+    font-size: 40px;
   }
   
-  #aboutus .icon-box3 .title {
-    margin-left: 80px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    font-size: 18px;
-    text-transform: uppercase;
+  .smallcontent .icon-box3 .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+    font-size: 50px;
   }
   
   

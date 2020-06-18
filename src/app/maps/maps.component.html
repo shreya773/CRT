@@ -1,34 +1,47 @@
-<div class="maps">
-  <div class="windmap">
-    <a href="https://earth.nullschool.net/#current/wind/surface/level/orthographic=71.57,16.65,285/loc=-150.464,43.598">Wind Map</a>
-  </div>
+<div class="parent">
+  <section>
+    <div class="right">
+      <div class="icon-box" data-wow-delay="0.2s">
+        <div class="icon"><i class="fa fa-wind"></i></div>
+        <h2 class="title"><a href="https://earth.nullschool.net/#current/wind/surface/level/orthographic=71.57,16.65,285/loc=-150.464,43.598">Earth Wind Map</a></h2>
+      </div>
+      <br>
+      <div class="icon-box1" data-wow-delay="0.2s">
+        <div class="icon"><i class="fa fa-cloud-sun"></i></div>
+        <h2 class="title"><a routerLink="/weather">Weather App</a></h2>
+      </div>
+      <br>
+      <div class="icon-box2" data-wow-delay="0.2s">
+        <div class="icon"><i class="fa fa-layer-group"></i></div>
+        <h2 class="title"><a href="#">All Maps of Kolkata</a></h2>
+      </div>
+      <br>
+      <div class="icon-box3" data-wow-delay="0.2s">
+        <div class="icon"><i class="fa fa-cloud-sun"></i></div>
+        <h2 class="title">
+          <a routerLink="#">Safe Houses in Kolkata</a>
+          <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1B0KNk577xl729cEsxu6FE_-kgBpmg1vD" width="1200" height="1000"></iframe></h2>
+      </div>
+      <br>
+    </div>
+    <div class="left">
+      <div class="icon-box" data-wow-delay="0.2s">
+        <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+          <h3>My Location!</h3>
+          <agm-map [latitude]="lat" [longitude]="lng">
+            <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+          </agm-map>
+        </div>
+    </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    
+    <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
+  </section>
 </div>
-
-<div class="s-12 m-12 l-6 margin-m-bottom-2x">
-  <h3>Safe Houses in Kolkata!!</h3>
-  <div class="s-12 grayscale center">
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1B0KNk577xl729cEsxu6FE_-kgBpmg1vD" width="640" height="480">
-    </iframe>
-  </div>
-  <br>
-  <br>
-  <hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">
-  <br>
-  <br>
-  <br>
-  <div class="location">
-    <h3>My Location!</h3>
-    <agm-map [latitude]="lat" [longitude]="lng">
-      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-    </agm-map>
-  </div>
-</div>
-<br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-<hr class="break margin-top-bottom-0" style="border-color: rgba(0, 38, 51, 0.80);">

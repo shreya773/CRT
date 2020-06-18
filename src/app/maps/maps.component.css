@@ -1,17 +1,96 @@
-.maps .windmap {
-    position: absolute;
-    width: 252px;
-    height: 119px;
-    left: 1137px;
-    top: 205px;
-
-    mix-blend-mode: normal;
+.parent.section {
+    column-count: 2;
+    flex-direction: column;
+}
+.right .icon-box .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+    font-size: 50px;
+    color: #2dc997;
 }
 
-.s-12 m-12 l-6 margin-m-bottom-2x{
-    position: absolute;
+.right .icon-box1 .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+    font-size: 50px;
+    color: #2dc997;
+}
+
+
+.right .icon-box2 .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+    font-size: 50px;
+    color: #2dc997;
+}
+
+
+.right .icon-box3 .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+    font-size: 50px;
+    color: #2dc997;
+
+}
+
+
+.left .icon-box .icon{
+    float: right;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #2dc997;
+    font-size: 50px;
+    color: #2dc997;
+
 }
 
 agm-map {
     height: 500px;
+    width: 600px;
+    float: absolute;
+    display: flex;
+    flex-direction: row;
 }

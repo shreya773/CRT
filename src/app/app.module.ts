@@ -16,6 +16,7 @@ import { OrgSignupComponent } from './signIn/org-signup/org-signup.component';
 import { HttpClientModule} from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
 import { EmergencyComponent } from './emergency/emergency.component';
+import { WeatherComponent } from './weather/weather.component';
 
 @NgModule({
    declarations: [
@@ -29,14 +30,15 @@ import { EmergencyComponent } from './emergency/emergency.component';
       DonationComponent,
       MapsComponent,
       OrgSignupComponent,
-      EmergencyComponent
+      EmergencyComponent,
+      WeatherComponent
    ],
    imports: [
       BrowserModule,
       AppRoutingModule,
       HttpClientModule,
       FormsModule,
-      AgmCoreModule.forRoot(),
+      AgmCoreModule.forRoot()
    ],
 
    providers : [],

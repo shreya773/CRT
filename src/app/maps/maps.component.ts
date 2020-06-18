@@ -6,8 +6,8 @@ import { MapsService } from '../maps.service';
   templateUrl: './maps.component.html',
   styleUrls: ['./maps.component.css']
 })
-export class MapsComponent implements OnInit {
 
+export class MapsComponent implements OnInit {
   lat:string='';
   lng:string='';
 
@@ -22,5 +22,4 @@ export class MapsComponent implements OnInit {
       this.lng = data.longitude;
     })
   }
-
 }

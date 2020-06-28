@@ -17,6 +17,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
 import { EmergencyComponent } from './emergency/emergency.component';
 import { WeatherComponent } from './weather/weather.component';
+import { WeatherappComponent } from './weatherapp/weatherapp.component';
 
 @NgModule({
    declarations: [
@@ -32,13 +33,16 @@ import { WeatherComponent } from './weather/weather.component';
       OrgSignupComponent,
       EmergencyComponent,
       WeatherComponent,
+      WeatherappComponent,
    ],
    imports: [
       BrowserModule,
       AppRoutingModule,
       HttpClientModule,
       FormsModule,
-      AgmCoreModule.forRoot()
+      AgmCoreModule.forRoot({
+         apiKey: 'AIzaSyAhyCdtQ7R3nCA25TNNJ_q6FYbDqWa8IeA'
+       })
    ],
 
    providers : [],

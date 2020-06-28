@@ -1,0 +1,15 @@
+
+<div class="box emergency">
+    <input type="number" name="no-of-people" placeholder="Enter number of people" class="numpeople" />
+    <select name="type-of-emergency-service" placeholder="Type of Emergency Service You need" class="service">
+        <option value="police">Police</option>
+        <option value="ambulance">Ambulance</option>
+        <option value="fire">Fire Brigade</option>
+        <option value="rescue">Rescue</option>
+        <option value="foods">Food supply</option>
+    </select>
+    <input type="button" class="btn" value="Submit">
+</div>
+<agm-map [latitude]="lat" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+  </agm-map>

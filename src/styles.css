@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
 @font-face {
   font-family: NotoSans;
   src: url('./assets/fonts/Noto_Sans/NotoSans-Regular.ttf');
@@ -63,5 +64,3 @@ body.homepage footer .footer-menu a {
   position: absolute;
   color: #c5c6c7;
 }
-
-

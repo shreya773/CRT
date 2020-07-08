@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "risk_zone",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "flood_level", "description": null, "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": null, "extrude": null, "visibility": -1, "drawOrder": 1000, "icon": "Layer0.png", "snippet": "" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 88.480781757243392, 22.65076789794475, 0.0 ], [ 88.480781757243392, 22.432101229528762, 0.0 ], [ 88.220448421827399, 22.432101229528762, 0.0 ], [ 88.220448421827399, 22.65076789794475, 0.0 ], [ 88.480781757243392, 22.65076789794475, 0.0 ] ] ] } }
+]
+}

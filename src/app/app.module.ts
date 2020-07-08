@@ -17,7 +17,8 @@ import { HttpClientModule} from '@angular/common/http';
 import { AgmCoreModule } from '@agm/core';
 import { EmergencyComponent } from './emergency/emergency.component';
 import { WeatherComponent } from './weather/weather.component';
-import { WeatherappComponent } from './weatherapp/weatherapp.component';
+import { FloodzoneComponent } from './floodzone/floodzone.component';
+
 
 @NgModule({
    declarations: [
@@ -33,7 +34,7 @@ import { WeatherappComponent } from './weatherapp/weatherapp.component';
       OrgSignupComponent,
       EmergencyComponent,
       WeatherComponent,
-      WeatherappComponent,
+      FloodzoneComponent
    ],
    imports: [
       BrowserModule,

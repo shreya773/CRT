@@ -11,7 +11,7 @@ import { MapsComponent } from './maps/maps.component';
 import { OrgSignupComponent } from './signIn/org-signup/org-signup.component';
 import { EmergencyComponent } from './emergency/emergency.component';
 import { WeatherComponent } from './weather/weather.component';
-import { WeatherappComponent } from './weatherapp/weatherapp.component';
+
 
 
 
@@ -29,7 +29,6 @@ const routes: Routes = [
   { path: 'org-signup', component: OrgSignupComponent},
   { path: 'emergency', component: EmergencyComponent},
   { path: 'weather', component: WeatherComponent},
-  { path: 'weatherapp', component: WeatherappComponent},
   
 ];
 

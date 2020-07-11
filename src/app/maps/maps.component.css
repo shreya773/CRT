@@ -14,7 +14,7 @@
     text-align: center;
     border-radius: 50%;
     border: 2px solid #45a29e;
-    font-size: 50px;
+    font-size: 40px;
     color:  #1f2833;
 }
 
@@ -30,7 +30,7 @@
     text-align: center;
     border-radius: 50%;
     border: 2px solid #45a29e;
-    font-size: 50px;
+    font-size: 40px;
     color:  #1f2833;
 }
 
@@ -46,7 +46,7 @@
     text-align: center;
     border-radius: 50%;
     border: 2px solid #45a29e;
-    font-size: 50px;
+    font-size: 40px;
     color:  #1f2833;
 }
 
@@ -63,7 +63,7 @@
     text-align: center;
     border-radius: 50%;
     border: 2px solid #45a29e;
-    font-size: 50px;
+    font-size: 40px;
     color:  #1f2833;
 }
 
@@ -81,12 +81,7 @@
     text-align: center;
     border-radius: 50%;
     border: 2px solid #45a29e;
-    font-size: 50px;
+    font-size: 40px;
     color:  #1f2833;
 
-}
-
-agm-map {
-    height: 500px;
-    width: 600px;
 }
